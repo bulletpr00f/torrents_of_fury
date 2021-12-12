@@ -6,6 +6,10 @@
       body {
         font-family : "Abel";
         font-size : 22px;
+	color: #333; 
+	width: 1100px; 
+        margin: 30px auto 0; 
+        background: #eee;
       }
       
       .mailto {
@@ -37,14 +41,13 @@
     <p>The official web home of @bulletpr00f</p>
 	  <div class='float'>
 		
-		<div class="example-2">
+		<div class="tof-tabs">
 			<ul>
 				<li><a href="#1">Services</a></li>
 				<li><a href="#2">Contact</a></li>
 				<li><a href="#3">GitHub</a></li>
 			</ul>
 			<div name="#1">
-			  <h2>Services</h2>
 			    <ul>
 			      <li>HTML Coding</li>
 			      <li>CSS Design & Layout</li>
@@ -54,24 +57,18 @@
 			    </ul>
 			</div>
 			<div name="#2">
-			 	<p>
+			 	
 			 		<a class="mailto" href="mailto:micah.bolen@protonmail.com">Mail @bulletpr00f</a>
-			 	</p>
+			 	
 			</div>
 			<div name="#3">
-				<h2>@bulletpr00f on GitHub</h2>
-    				<p><a target="_blank" href="https://github.com/bulletpr00f">https://github.com/bulletpr00f</a></p>
+				<a target="_blank" href="https://github.com/bulletpr00f">https://github.com/bulletpr00f</a>
 			</div>
 		</div>
 		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
     		 <script src="litetabs.jquery.js"></script>
 	<script>
-        	$('.example-1').liteTabs();
-		$('.example-2').liteTabs({ rounded: true });
-		$('.example-3').liteTabs({ height: 200 });
-		$('.example-4').liteTabs({ borders: true });
-		$('.example-5').liteTabs({ boxed: true, fadeIn: true });
-		$('.example-6').liteTabs({ rounded: true, height: 200, selectedTab: 2 });
+        	$('.tof-tabs').liteTabs({ rounded: true });
     	</script>	
   </body>
 </html>
